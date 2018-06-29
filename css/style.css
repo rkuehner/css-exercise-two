@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
 }
 
 nav {
@@ -42,6 +43,14 @@ li {
   padding: 30px;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color:#ffffff;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +58,28 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  color: #0A5FC1;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #4787D1;
+}
+
+figcaption {
+  color: #878787;
+  font-size: 0.9rem;
+}
+
+.author {
+  color: #878787;
+  font-size: 1.2rem;
+}
+
+.story-text {
+  line-height: 1.3rem;
 }
