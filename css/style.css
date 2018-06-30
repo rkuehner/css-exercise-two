@@ -63,16 +63,19 @@ article {
 h1 {
   color: #0A5FC1;
   font-size: 3rem;
+  padding: 10px 0px 10px 0px;
 }
 
 h3 {
   font-size: 1.8rem;
   color: #4787D1;
+  padding: 10px 0px 10px 0px;
 }
 
 figcaption {
   color: #878787;
   font-size: 0.9rem;
+  padding: 10px 0px 20px 0px;
 }
 
 .author {
@@ -82,4 +85,8 @@ figcaption {
 
 .story-text {
   line-height: 1.3rem;
+}
+
+p {
+  padding-bottom: 20px;
 }
